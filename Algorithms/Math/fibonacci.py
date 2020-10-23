@@ -4,6 +4,7 @@ What Is The Fibonacci Sequence?
 https://en.wikipedia.org/wiki/Fibonacci_number
 https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/
+https://www.ics.uci.edu/~eppstein/161/960109.html
 
 The Fibonacci numbers are the numbers in the following integer sequence.
 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, ……..
@@ -47,3 +48,12 @@ def getNthFib(n):
         return 1
     else:
         return getNthFib(n-1) + getNthFib(n-2)
+    
+#Method 2 ( Use Dynamic Programming )
+#We can avoid the repeated work done is method 1 by storing the
+#Fibonacci numbers calculated so far.
+# Fibonacci Series using Dynamic Programming
+
+
+
+
